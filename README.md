@@ -3,7 +3,7 @@
 Il s'agit d'une application web basique qui utilise un service Web RESTful.
 
 ## Fonctionnement
-Une plateforme de cours en ligne a mis possède une base de données où est stockées tous leurs cours.
+Une plateforme de cours en ligne a mis dispose d'une base de données où sont stockés tous leurs cours.
 Nous avons utilisé Spring ```RestTemplate``` pour gérer les cours de ladite plateforme via son API REST.
 
 ## De quoi as-tu besoin ?
