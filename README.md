@@ -11,12 +11,29 @@ Nous avons utilisé Spring ```RestTemplate``` pour gérer les cours de ladite pl
 github.
 - Exécuter l'API et cette application dans un terminal séparé ou les deux simultanément sur votre IDE préféré comme STS.
 
-## Quelques captures de l'application
+### Quelques captures
 
-### Page d'accueil
+#### Page d'accueil
 
 ![home page](/src/main/resources/static/home_page.png?raw=true "Home page")
 
-### Recherche d'un cours
+#### Recherche d'un cours
 
 ![search course](/src/main/resources/static/search_course.png?raw=true "Search course")
+
+#### Ajoute d'un cours
+
+![new course](/src/main/resources/static/add_new_course.png?raw=true "New course")
+
+#### Modification d'un cours
+
+![update course](/src/main/resources/static/update_course.png?raw=true "update course")
+
+#### Alerte d'une opértion réussie
+
+![success operation](/src/main/resources/static/success_operation.png?raw=true "success operation")
+
+
+#### Alerte d'une opértion echouée
+
+![failed operation](/src/main/resources/static/failed_operation.png?raw=true "failed operation")
