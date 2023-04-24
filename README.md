@@ -10,3 +10,7 @@ Nous avons utilisé Spring ```RestTemplate``` pour gérer les cours de ladite pl
 - Vous avez besoin des ressources de cette API que vous trouverez [ici](https://github.com/abdelnasserben/apirestwithmysql) sur 
 github.
 - Exécuter l'API et cette application dans un terminal séparé ou les deux simultanément sur votre IDE préféré comme STS.
+
+## Quelques captures de l'application
+
+![home page](/src/main/resources/static/add_new_course.png?raw=true "Home page")
