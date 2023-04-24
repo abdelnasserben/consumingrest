@@ -13,4 +13,10 @@ github.
 
 ## Quelques captures de l'application
 
-![home page](/src/main/resources/static/add_new_course.png?raw=true "Home page")
+### Page d'accueil
+
+![home page](/src/main/resources/static/home_page.png?raw=true "Home page")
+
+### Recherche d'un cours
+
+![search course](/src/main/resources/static/search_course.png.png?raw=true "Search course")
