@@ -1,9 +1,12 @@
 # Consuming REST API
 
 Il s'agit d'une application web basique qui utilise un service Web RESTful.
-Nous avons utilisé Spring ```RestTemplate``` pour gérer les cours d'une plateforme de E-learning via son API REST.
-Vous avez besoin des ressources de cette API que vous trouverez ici sur 
-github [https://github.com/abdelnasserben/apirestwithmysql](https://github.com/abdelnasserben/apirestwithmysql).
+
+## Fonctionnement
+Une plateforme de cours en ligne a mis possède une base de données où est stockées tous leurs cours.
+Nous avons utilisé Spring ```RestTemplate``` pour gérer les cours de ladite plateforme via son API REST.
 
 ## De quoi as-tu besoin ?
-vous avez juste besoin de télécharger l'API REST ci-dessus et la faire fonctionner avant de lancer l'application.
+- Vous avez besoin des ressources de cette API que vous trouverez [ici](https://github.com/abdelnasserben/apirestwithmysql) sur 
+github.
+- Exécuter l'API et cette application dans un terminal séparé ou les deux simultanément sur votre IDE préféré comme STS.
