@@ -19,4 +19,4 @@ github.
 
 ### Recherche d'un cours
 
-![search course](/src/main/resources/static/search_course.png.png?raw=true "Search course")
+![search course](/src/main/resources/static/search_course.png?raw=true "Search course")
