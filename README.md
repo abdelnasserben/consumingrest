@@ -11,7 +11,7 @@ Nous avons utilisé Spring ```RestTemplate``` pour gérer les cours de ladite pl
 github.
 - Exécuter l'API et cette application dans un terminal séparé ou les deux simultanément sur votre IDE préféré comme STS.
 
-## Captures de l'application
+## Quelques captures
 
 #### Page d'accueil
 
