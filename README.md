@@ -12,7 +12,7 @@ github.
 - Exécuter l'API et cette application dans un terminal séparé ou les deux simultanément sur votre IDE préféré comme STS.
 
 ## Quelques captures
-Notez que ces captures sont stockées dans le dossier static du projet. Elles servent juste de capture sur ce fichier ```README```. Vous pouvez les supprimer après avoir télécharger ce projet.
+Notez que ces captures sont stockées dans le dossier ```src/main/resources/static``` du projet. Elles servent juste de capture sur ce fichier ```README```. Vous pouvez les supprimer après avoir télécharger ce projet.
 
 #### Page d'accueil
 
