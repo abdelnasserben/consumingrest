@@ -13,6 +13,12 @@ import org.springframework.web.client.RestTemplate;
 import com.dabel.consumingrest.config.CustomProperties;
 import com.dabel.consumingrest.model.Course;
 
+/**
+ * Repository class
+ * 
+ * @author ABDEL-NASSER BEN ALI
+ *
+ */
 @Repository
 public class CourseProxy {
 
@@ -73,7 +79,7 @@ public class CourseProxy {
 	}
 	
 	/**
-	 * Indicate updating an existing course
+	 * Overload method for updating an existing course
 	 * 
 	 * @param course
 	 * @param updating
