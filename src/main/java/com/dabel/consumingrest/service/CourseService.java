@@ -9,6 +9,12 @@ import org.springframework.stereotype.Service;
 import com.dabel.consumingrest.model.Course;
 import com.dabel.consumingrest.repository.CourseProxy;
 
+/**
+ * Service class
+ * 
+ * @author ABDEL-NASSER BEN ALI
+ *
+ */
 @Service
 public class CourseService {
 

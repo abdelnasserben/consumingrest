@@ -15,6 +15,12 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import com.dabel.consumingrest.model.Course;
 import com.dabel.consumingrest.service.CourseService;
 
+/**
+ * Configure mapping HTTP requests
+ * 
+ * @author ABDEL-NASSER BEN ALI
+ *
+ */
 @Controller
 public class CourseController {
 
@@ -27,6 +33,11 @@ public class CourseController {
 	private List<String> listLevels = Arrays.asList(
 			"Facile", "Moyen", "Avancé");
 	
+
+	@GetMapping("/404")
+	public String errorPage() {
+		return "404";
+	}
 	
 	@GetMapping("/")
 	public String home(Model model, Course course) {
@@ -59,7 +70,7 @@ public class CourseController {
 	public String update(@PathVariable int id, Model model) {
 		
 		//check if exists course id
-		if(!courseService.exists(id)) return "redirect:/";
+		if(!courseService.exists(id)) return "redirect:/404";
 		
 		Course course = courseService.findById(id);
 		
